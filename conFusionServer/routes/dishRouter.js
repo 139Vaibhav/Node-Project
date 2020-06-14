@@ -73,7 +73,7 @@ dishRouter.route('/:dishid')
     },(err)=>next(err)).catch((err)=>next(err));
 });
 
-module.exports=dishRouter;
+//module.exports=dishRouter;
 
 dishRouter.route('/:dishid/comments')
 
